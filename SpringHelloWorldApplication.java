@@ -14,9 +14,9 @@ public class Application {
     return "Hello from Spring Application\n";
   }
 
-  @RequestMapping("/ping\n")
+  @RequestMapping("/ping")
   public String ping() {
-    return "pong";
+    return "pong\n";
   }
 
   public static void main(String[] args) {
